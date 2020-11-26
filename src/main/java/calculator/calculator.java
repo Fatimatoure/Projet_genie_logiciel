@@ -1,6 +1,6 @@
 package calculator;
 
-public class calculator {
+public class Calculator {
 	
 	/**************Méthode pour faire l'addition de deux chiffres************/
 	public static int sum(int a, int b)
