@@ -16,13 +16,13 @@ public class calculatorTest {
 	}
 	@Test
 	public void testSum() {
-		int result = calculator.sum(3, 3);
-		Assert.assertEquals(6, result);
+		int result = calculator.sum(3, 23);
+		Assert.assertEquals(26, result);
 	}
 
 	@Test
 	public void testMinus() {
-		Assert.assertEquals(0, calculator.minus(2, 2));
+		Assert.assertEquals(2, calculator.minus(22, 20));
 	}
 
 	@Test
